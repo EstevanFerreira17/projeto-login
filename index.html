@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+</head>
+<body>
+    <main>
+        
+            <article id="img"><!--Imagem-->
+            </article>
+        
+
+        <div>
+            <article id="txt">
+                <h1>Login</h1>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            </article>
+            
+            <form action="cadastro.php" method="post">
+                <p class="info"><!--E-mail-->
+                    <label for="iemail"><i class="material-symbols-outlined">person</i></label>
+                    <input class="info" type="email" name="email" id="iemail" required placeholder="Seu e-mail">
+                </p>
+                <p class="info"><!--Senha-->
+                    <label for="ipass"><i class="material-symbols-outlined">key</i></label>
+                    <input class="info" type="password" name="pass" id="ipass" required placeholder="Sua senha" minlength="8">
+                </p>
+                <p><!--Entrar-->
+                    <input type="submit" value="Entrar">
+                </p>
+                <p id="esqueci"><!--Esqueci a senha-->
+                    <input type="submit" value="Esqueci a Senha">
+                    <i id="imail" class="material-symbols-outlined">mail</i>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

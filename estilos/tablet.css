@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, #571908, #af713e , #5d82a7 50%, #1f5e92);
+}
+
+main {
+    height: 325px;
+    width: 650px;
+}
+
+article#img {
+    position: absolute;
+    width: 280px;
+    height: 325px;
+    background-position: left center;
+    background-size: auto;
+    border-radius: 15px 0px 0px 15px;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    background-color:;
+    width: 300px;
+}
+
+article#txt {
+    padding: 0px;
+    padding-bottom: 15px;
+}
+
+form input {
+    width: 300px;
+}
+
+form p.info {
+    padding-right: 0px;
+}
+
+p.info input {
+    width: 250px;
+}
+
+i#imail {
+    left: 230px;
+}

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root {
+    --cor1: #eda035;
+    --cor2: #441a00;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top,  #568ea3, #3e6877);
+}
+
+main {
+    position: absolute;
+    background-color: rgb(250, 243, 222);
+    width: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.283);
+}
+
+/*IMAGEM*/  
+
+article#img {
+
+    background-color: brown;
+    background: url('../imagens/pexels-christian-moreno-12101668.jpg') center no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin: -10px -10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*TEXTO*/
+
+article#txt {
+    padding: 20px 10px;
+}
+
+article#txt h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.076);
+}
+
+article#txt p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+/*FORMULÁRIO*/
+
+form {
+    text-align: center;
+}
+
+form input {
+    font-size: 1em;
+    color: white;
+    background-color: #723900;
+    width: 240px;
+    height: 43px;
+    border-radius: 8px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.328);
+    border: none;
+}
+
+form input:hover {
+    background-color: var(--cor2);
+}
+
+form p {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+form input.info {
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 33px;
+    margin-left: 30px;
+    padding-left: 8px;
+    box-shadow: none;
+}
+
+form p.info {
+    position: relative;
+    background-color: var(--cor1);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+p#esqueci input {
+    color: black;
+    background-color: rgb(187, 222, 252);
+    border: 1px solid var(--cor2);
+}
+
+p#esqueci input:hover {
+    color: white;
+    background-color: #678dc9;
+}
+
+i {
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    color: var(--cor2);
+}
+
+ i#imail {
+    position: absolute;
+    left: 187px;
+    transform: translate(0px, -2px);
+}
+
