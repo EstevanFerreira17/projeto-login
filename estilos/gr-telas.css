@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*VEersão DESKTOP*/
+
+body {
+    background-image: linear-gradient(to bottom, #d9b08b, #1d557d 100%);
+}
+
+main {
+    width: 650px;
+    height: 509px;   
+}
+
+article#img {
+    background-position: center center;
+}
+
+article#txt {
+    font-size: 1.2em;
+}
+
+p input {
+    height: 50px;
+    width: 302px;
+}
+
+form p.info {
+    margin-bottom: 15px;
+}
+
+p input.info {
+    width: 580px;
+    height: 38px;
+
+}
+
+p {
+    display: inline-block;
+    font-size: 1em;
+}
+
+p#esqueci {
+    padding-left: 10px;
+}
+
+i#imail {
+    position: absolute;
+    left: 240px;
+}

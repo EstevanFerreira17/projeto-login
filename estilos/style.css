@@ -34,7 +34,7 @@ main {
 article#img {
 
     background-color: brown;
-    background: url('../imagens/pexels-christian-moreno-12101668.jpg') center no-repeat;
+    background: url('../imagens/pexels-christian-moreno-12101668.jpg') center bottom no-repeat;
     background-size: cover;
     height: 200px;
     margin: -10px -10px;
